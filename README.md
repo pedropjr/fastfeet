@@ -31,7 +31,7 @@ _Para rodar a aplicação é necessário que você possua esses dois programas:_
 - [Redis](https://redis.io/)
 
 ### Porém, para facilitar, usamos o [Docker](https://www.docker.com/) para rodar os bancos de dados facilmente. Dentro dele siga estes passos:
-### Alguns computadores podem ter dificuldade de rodar o Docker Destop e emuladores de Android com o Genymotion, o motivo se dá ao conflito entre os dois e a tecnologia Hyper-V. Por favor, utilize de um dispositivo físico Android ou utilize do emulador para Android Studio.
+### Alguns computadores podem ter dificuldade de rodar o Docker Destop e emuladores de Android como o Genymotion, o motivo se dá ao conflito entre os dois e a tecnologia Hyper-V. Por favor, utilize de um dispositivo físico Android ou utilize do emulador para Android Studio.
 ```bash
 # Instale uma imagem do Redis
 docker run --name redisfastfeet -p 6379:6379 -d -t redis:alpine
