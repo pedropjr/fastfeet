@@ -115,11 +115,12 @@ _Substitua 192.168.15.100 com o ip de sua máquina caso queira utilizar o Reacto
   .configure({ host: '192.168.15.100' })
 ```
 
-_Agora basta rodar a aplicação._
+_Agora basta rodar a aplicação, basta estar com o emulador de Android aberto._
 ```bash
 
 # para rodar a aplicação
-yarn start
+
+npx react-native run-android
 
 ```
 
